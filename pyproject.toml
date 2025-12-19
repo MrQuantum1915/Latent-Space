@@ -8,5 +8,7 @@ dependencies = [
     "ipykernel>=7.1.0",
     "matplotlib>=3.10.8",
     "numpy>=2.3.5",
+    "pandas>=2.3.3",
     "pyqt6>=6.10.1",
+    "scikit-learn>=1.8.0",
 ]
