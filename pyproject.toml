@@ -11,4 +11,5 @@ dependencies = [
     "pandas>=2.3.3",
     "pyqt6>=6.10.1",
     "scikit-learn>=1.8.0",
+    "tsfel>=0.2.0",
 ]
