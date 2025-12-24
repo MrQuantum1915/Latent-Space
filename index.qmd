@@ -1,0 +1,10 @@
+---
+title: "Welcome to the Archive"
+---
+
+This is the central repository for my academic work.
+
+### Recent Updates
+- **Assignment 1:** Human Activity Recognition
+
+Use the sidebar to navigate specific tasks.

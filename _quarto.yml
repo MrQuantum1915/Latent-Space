@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Mr.Quantum's Archive"
+  sidebar:
+    style: "docked"
+    search: true   #(ctrl+k)
+    contents:
+      - href: index.qmd
+        text: Home
+      - section: "Assignment 1 : HAR"
+        contents:
+          - Human Activity Recognition/my-code/Task1.ipynb
+          - Human Activity Recognition/my-code/Task2.ipynb
+
+
+format:
+ html:
+    code-fold: true        # hides code by default (click to view)
+    code-tools: true       # adds a "source code" menu
+    toc: true              # table of contents
+    toc-float: true        # floating TOC on the left
+    theme:
+      dark: darkly
+      light: cosmo
+    highlight-style:
+      dark: github-dark
+      light: github
+    self-contained: true   # embeds all css/js into one file (easy to move around)
+
+
+execute:
+  freeze: true  # saves results. Only re-runs if source code changes.
