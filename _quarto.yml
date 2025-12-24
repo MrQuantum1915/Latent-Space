@@ -3,7 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "Mr.Quantum's Archive"
+  title: "Latent Space"
+  site-url: "https://mrquantum.github.io/Latent-Space"
+  repo-url: "https://github.com/MrQuantum1915/Latent-Space"
   sidebar:
     style: "docked"
     search: true   #(ctrl+k)
